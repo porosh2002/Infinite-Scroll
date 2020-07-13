@@ -28,7 +28,7 @@ export default class NavMob extends Component {
         <i className="fas fa-bars"></i>
         </div>
         <div className="logo">
-          <p>3pWorld</p>
+          <Link to=''>3pWorld</Link>
         </div>
         <div className="pr-container">
           <Link to="/">

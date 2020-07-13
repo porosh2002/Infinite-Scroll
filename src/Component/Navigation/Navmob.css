@@ -1,4 +1,5 @@
-.bars,
+@media screen and (max-width:899px){
+  .bars,
 .logo,
 .pr-container {
   margin: auto 0px;
@@ -9,13 +10,14 @@
   margin: 5px;
   background-color: #444;
 }
-.logo p {
+.logo a{
   font-size: 20px;
   font-weight: 400;
   font-size: 18px;
   color: #444;
   font-weight: 650;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 body {
   background-color: #444;
@@ -78,4 +80,6 @@ body {
   margin: 10px 0px;
   letter-spacing: 1px;
   padding-left: 20px;
+}
+
 }
