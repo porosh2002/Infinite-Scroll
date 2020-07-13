@@ -1,0 +1,138 @@
+
+  @media screen and (min-width: 900px) {
+    .navigation {
+      height: 70px;
+      top: 0;
+      position: sticky;
+      background-color: #fff;
+    }
+    .App-logo {
+      height: 50px;
+    }
+    .fa-user-circle,
+    .fa-bookmark,
+    .fa-shopping-bag {
+      font-size: 20px;
+      color: #444;
+    }
+    .menu-div-main {
+      width: 600px;
+      text-align: center;
+    }
+    .menu-div-one {
+      height: 28px;
+    }
+    .menu-link,
+    .drop-title,
+    .pr-container-des {
+      text-decoration: none;
+      margin: 0px 10px;
+      font-size: 14px;
+      color: #444;
+      font-weight: 650;
+      letter-spacing: 1px;
+    }
+    .menu-link:hover {
+      color: #f08080;
+    }
+    .App-logo {
+      margin: 10px 0px 10px 30px;
+    }
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+    }
+    .pr-container {
+      margin: auto 0px;
+      text-align: center;
+      display: flex;
+    }
+    .pr-container div {
+      display: inline-block;
+      margin: 0px 15px;
+    }
+    .search-box,
+    .search-btn {
+      height: 40px;
+    }
+    .search-section {
+      margin: auto 0px;
+    }
+    .label {
+      display: flex;
+    }
+    .search-box {
+      width: 180px;
+      border: 1px solid #444;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      border-right: none;
+      padding: 0px 10px;
+    }
+    .search-btn {
+      cursor: pointer;
+      padding: 0px 15px;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      border: none;
+      background-color: #444;
+      color: #fff;
+    }
+    .search-btn:hover {
+      background-color: #f08080;
+    }
+    .srch-profile {
+      width: 600px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .drop-down {
+      border-top: 3px solid #f08080;
+      height: 650px;
+      background-color: #fff;
+      margin: 0px 50px;
+      padding: 20px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      display: none;
+    }
+    .drop-title {
+      color: #f08080;
+      font-size: 16px;
+    }
+    .drop-title:hover {
+      color: #444;
+    }
+    .drop-des {
+      text-decoration: none;
+      display: block;
+      font-size: 13px;
+      color: #444;
+      font-weight: 600;
+      margin: 10px 0px 0px 10px;
+    }
+    .drop-des:hover {
+      color: #f08080;
+    }
+    .drop-div {
+      width: 600px;
+    }
+    .drp-lst {
+      display: block;
+      margin: 10px 0px;
+    }
+    .ddmf {
+      display: flex;
+      justify-content: space-around;
+    }
+    .ddms {
+      display: flex;
+      margin: 50px 0px;
+    }
+    .pre-container-link-div:hover .fa-user-circle,
+    .pre-container-link-div:hover .fa-bookmark,
+    .pre-container-link-div:hover .fa-shopping-bag {
+      color: #f08080;
+    }
+  }
+  
