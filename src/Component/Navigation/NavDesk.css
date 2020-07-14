@@ -42,6 +42,10 @@
       display: flex;
       justify-content: space-between;
     }
+        .drop-down{
+      position: absolute;
+      width:90%;
+    }
     .pr-container {
       margin: auto 0px;
       text-align: center;
