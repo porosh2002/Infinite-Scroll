@@ -9,7 +9,7 @@ let photosArray = [];
 // Unsplash API
 const count = 30;
 // Normally, don't store API Keys like this, but an exception made here because it is free, and the data is publicly available!
-const apiKey = '_Wmj3GF1DS8gNbFPFGalf0rBTpXyX8FweC2GbFARZhI';
+const apiKey = 'hUxPUtVuSRVv8X-U7gfchV6aGS-uWbD7Ov5mjrO-yWQ';
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 // Check if all images were loaded
